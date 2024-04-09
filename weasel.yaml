@@ -7,7 +7,7 @@
 # Weasel 字体设定 <https://github.com/rime/weasel/wiki/字體設定>
 
 # 部分选项需要将 Weasel 更新至最新开发版才能生效
-config_version: "2024.03.20"
+config_version: "2024.04.06"
 
 # [app_options]
 # 针对特定应用的设置
