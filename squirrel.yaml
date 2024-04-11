@@ -54,7 +54,7 @@ preset_color_schemes:
     # 会让 🈶🈚️🉑🈲🉐 这几个 Emoji 失去彩色效果，留空反而可以显示。。。
     font_face: "LXGWWenKaiScreen"           # 字体及大小
     font_point: 19
-    label_font_face: "LXGWWenKaiMonoScreen" # 序号字体及大小
+    label_font_face: "Helvetica"            # 序号字体及大小
     label_font_point: 18
     comment_font_face: "LXGWWenKaiScreen"   # 注字体及大小
     comment_font_point: 18
