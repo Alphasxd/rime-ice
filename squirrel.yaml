@@ -10,7 +10,7 @@
 
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '2023-02-27'
+config_version: '2043-04-11'
 
 
 # options: last | default | _custom_
@@ -27,34 +27,21 @@ show_notifications_when: appropriate
 # ascii_mode、inline、no_inline、vim_mode 等等设定
 # 可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
 app_options:
-  # com.apple.Spotlight:
-  #   ascii_mode: true    # 开启默认英文
-  # com.microsoft.VSCode:
-  #   ascii_mode: false   # 关闭默认英文
+  com.apple.Spotlight:
+    ascii_mode: true
+  com.apple.Terminal:
+    ascii_mode: true
+  com.microsoft.VSCode:
+    ascii_mode: true
+    ascii_punct: true
+  com.googlecode.iterm2:
+    ascii_mode: true
 
 
 style:
   # 选择皮肤，亮色与暗色主题
   color_scheme: purity_of_form_custom
   color_scheme_dark: purity_of_form_custom
-
-  # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
-  text_orientation: horizontal  # horizontal | vertical
-  inline_preedit: true
-  corner_radius: 10
-  hilited_corner_radius: 0
-  border_height: 0
-  border_width: 0
-  line_spacing: 5
-  spacing: 10
-  #candidate_format: '%c. %@'
-  #base_offset: 6
-  font_face: 'Lucida Grande'
-  font_point: 21
-  #label_font_face: 'Lucida Grande'
-  label_font_point: 18
-  #comment_font_face: 'Lucida Grande'
-  comment_font_point: 18
 
 
 # 皮肤列表
@@ -65,12 +52,12 @@ preset_color_schemes:
     author: 雨過之後、佛振
     # 如果将字体设置为 PingFangSC-Regular
     # 会让 🈶🈚️🉑🈲🉐 这几个 Emoji 失去彩色效果，留空反而可以显示。。。
-    font_face: ""                   # 字体及大小
-    font_point: 18
-    label_font_face: "Helvetica"    # 序号字体及大小
-    label_font_point: 12
-    comment_font_face: "Helvetica"  # 注字体及大小
-    comment_font_point: 16
+    font_face: "LXGWWenKaiScreen"           # 字体及大小
+    font_point: 19
+    label_font_face: "LXGWWenKaiMonoScreen" # 序号字体及大小
+    label_font_point: 18
+    comment_font_face: "LXGWWenKaiScreen"   # 注字体及大小
+    comment_font_point: 18
     # candidate_list_layout: stacked        # 候选项排列方向 stacked(默认) | linear
     # text_orientation: horizontal          # 文字排列方向 horizontal(默认) | vertical
     inline_preedit: true                    # 拼音位于： 候选框 false | 行内 true
@@ -82,7 +69,7 @@ preset_color_schemes:
     hilited_corner_radius: 0                # 选中框 圆角半径
     surrounding_extra_expansion: 0          # 候选项背景相对大小？
     shadow_size: 0                          # 阴影大小
-    line_spacing: 5                         # 行间距
+    line_spacing: 10                        # 行间距
     base_offset: 0                          # 字基高
     alpha: 1                                # 透明度，0~1
     spacing: 10                             # 拼音与候选项之间的距离 （inline_preedit: false）
