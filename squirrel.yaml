@@ -27,14 +27,14 @@ show_notifications_when: appropriate
 # ascii_mode、inline、no_inline、vim_mode 等等设定
 # 可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
 app_options:
-  com.apple.Spotlight:
-    ascii_mode: true
   com.apple.Terminal:
     ascii_mode: true
   com.microsoft.VSCode:
     ascii_mode: true
     ascii_punct: true
   com.googlecode.iterm2:
+    ascii_mode: true
+  com.jetbrains.goland:
     ascii_mode: true
 
 
