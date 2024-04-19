@@ -36,6 +36,8 @@ app_options:
     ascii_mode: true
   com.jetbrains.goland:
     ascii_mode: true
+  com.google.Chrome:
+    ascii_mode: false
 
 
 style:
