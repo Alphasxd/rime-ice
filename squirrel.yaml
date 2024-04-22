@@ -38,6 +38,10 @@ app_options:
     ascii_mode: true
   com.google.Chrome:
     ascii_mode: false
+  com.apple.systempreferences:
+    ascii_mode: true
+  com.apple.loginwindow:
+    ascii_mode: true
 
 
 style:
