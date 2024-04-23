@@ -37,7 +37,7 @@ app_options:
   com.jetbrains.goland:
     ascii_mode: true
   com.google.Chrome:
-    ascii_mode: false
+    ascii_mode: true
   com.apple.systempreferences:
     ascii_mode: true
   com.apple.loginwindow:
