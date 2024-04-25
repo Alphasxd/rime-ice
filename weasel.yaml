@@ -92,7 +92,7 @@ style:
     margin_x: 8                            # 主体元素和候选框的左右边距；为负值时，不显示候选框
     margin_y: 8                            # 主体元素的上下边距；为负值时，不显示候选框
     spacing: 13                            # inline_preedit 为否时，编码区域和候选区域的间距
-    candidate_spacing: 22                  # 候选项之间的间距
+    candidate_spacing: 10                  # 候选项之间的间距
     hilite_spacing: 6                      # 候选项和相应标签的间距
     hilite_padding: 8                      # 高亮区域和内部文字的间距，影响高亮区域大小
     # hilite_padding_x: 8                  # 高亮区域和内部文字的左右间距，如无特殊指定则依 hilite_padding 设置
