@@ -31,10 +31,8 @@ app_options:
     ascii_mode: true
   com.microsoft.VSCode:
     ascii_mode: true
-    ascii_punct: true
   com.sublimetext.4:
     ascii_mode: true
-    ascii_punct: true
   com.googlecode.iterm2:
     ascii_mode: true
   com.jetbrains.goland:
