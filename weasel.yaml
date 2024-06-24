@@ -14,24 +14,30 @@ config_version: "2024-05-14"
 app_options:
   code.exe: # 带 .exe 的进程名：Weasel 15.0 及之前版本须小写; PR #1049 合并后释出的版本大小写不敏感
     ascii_mode: true # 英文模式
+    ascii_punct: true # 英文标点
   goland64.exe:
     ascii_mode: true
+    ascii_punct: true
   sublime_text.exe:
     ascii_mode: true
+    ascii_punct: true
   windowsterminal.exe:
     ascii_mode: true
+    ascii_punct: true
   cmd.exe:
     ascii_mode: true
+    ascii_punct: true
   conhost.exe:
     ascii_mode: true
   wt.exe:
     ascii_mode: true
+    ascii_punct: true
   pwsh.exe:
     ascii_mode: true
+    ascii_punct: true
   powershell.exe:
     ascii_mode: true
-  chrome.exe:
-    ascii_mode: false
+    ascii_punct: true
 # [End of <app_options>]
 
 # [global settings]
