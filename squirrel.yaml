@@ -29,14 +29,19 @@ show_notifications_when: appropriate
 app_options:
   com.apple.Terminal:
     ascii_mode: true
+    ascii_punct: true
   com.microsoft.VSCode:
     ascii_mode: true
+    ascii_punct: true
   com.sublimetext.4:
     ascii_mode: true
+    ascii_punct: true
   com.googlecode.iterm2:
     ascii_mode: true
+    ascii_punct: true
   com.jetbrains.goland:
     ascii_mode: true
+    ascii_punct: true
   com.apple.systempreferences:
     ascii_mode: true
   com.apple.loginwindow:
