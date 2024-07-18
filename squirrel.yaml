@@ -10,7 +10,7 @@
 
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '2043-04-11'
+config_version: '2024-07-18'
 
 
 # options: last | default | _custom_
@@ -38,6 +38,8 @@ app_options:
     ascii_punct: true
   com.googlecode.iterm2:
     ascii_mode: true
+    ascii_punct: true
+  com.google.Chrome:
     ascii_punct: true
   com.jetbrains.goland:
     ascii_mode: true
