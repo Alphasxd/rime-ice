@@ -7,7 +7,7 @@
 # Weasel 字体设定 <https://github.com/rime/weasel/wiki/字體設定>
 
 # 部分选项需要将 Weasel 更新 16.0 及以上版本才能生效
-config_version: "2024-05-14"
+config_version: "2024-07-18"
 
 # [app_options]
 # 针对特定应用的设置
@@ -37,6 +37,8 @@ app_options:
     ascii_punct: true
   powershell.exe:
     ascii_mode: true
+    ascii_punct: true
+  chrome.exe:
     ascii_punct: true
 # [End of <app_options>]
 
