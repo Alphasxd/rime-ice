@@ -37,8 +37,6 @@ app_options:
   powershell.exe:
     ascii_mode: true
     ascii_punct: true
-  chrome.exe:
-    ascii_punct: true
 # [End of <app_options>]
 
 # [global settings]
