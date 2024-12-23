@@ -39,9 +39,10 @@ app_options:
   com.googlecode.iterm2:
     ascii_mode: true
     ascii_punct: true
-  com.google.Chrome:
-    ascii_punct: true
   com.jetbrains.goland:
+    ascii_mode: true
+    ascii_punct: true
+  com.jetbrains.intellij:
     ascii_mode: true
     ascii_punct: true
   com.apple.systempreferences:
