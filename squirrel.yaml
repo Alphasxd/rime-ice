@@ -45,10 +45,6 @@ app_options:
   com.jetbrains.intellij:
     ascii_mode: true
     ascii_punct: true
-  com.apple.systempreferences:
-    ascii_mode: true
-  com.apple.loginwindow:
-    ascii_mode: true
 
 
 style:
