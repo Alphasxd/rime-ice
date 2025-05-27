@@ -32,19 +32,15 @@ app_options:
     ascii_punct: true
   com.microsoft.VSCode:
     ascii_mode: true
-    ascii_punct: true
   com.sublimetext.4:
     ascii_mode: true
-    ascii_punct: true
   com.googlecode.iterm2:
     ascii_mode: true
     ascii_punct: true
   com.jetbrains.goland:
     ascii_mode: true
-    ascii_punct: true
   com.jetbrains.intellij:
     ascii_mode: true
-    ascii_punct: true
 
 
 style:
