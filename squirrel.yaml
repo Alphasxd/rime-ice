@@ -41,6 +41,8 @@ app_options:
     ascii_mode: true
   com.jetbrains.intellij:
     ascii_mode: true
+  com.cisco.anyconnect.gui:
+    ascii_mode: true
 
 
 style:
