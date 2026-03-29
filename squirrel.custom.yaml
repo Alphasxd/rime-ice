@@ -1,0 +1,25 @@
+patch:
+  app_options/com.apple.Terminal:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/com.microsoft.VSCode:
+    ascii_mode: true
+  app_options/com.sublimetext.4:
+    ascii_mode: true
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/com.jetbrains.goland:
+    ascii_mode: true
+  app_options/com.jetbrains.intellij:
+    ascii_mode: true
+  app_options/com.cisco.anyconnect.gui:
+    ascii_mode: true
+
+  preset_color_schemes/purity_of_form_custom/font_face: LXGWWenKaiScreen
+  preset_color_schemes/purity_of_form_custom/font_point: 19
+  preset_color_schemes/purity_of_form_custom/label_font_face: Helvetica
+  preset_color_schemes/purity_of_form_custom/label_font_point: 16
+  preset_color_schemes/purity_of_form_custom/comment_font_face: LXGWWenKaiScreen
+  preset_color_schemes/purity_of_form_custom/comment_font_point: 16
+  preset_color_schemes/purity_of_form_custom/line_spacing: 10

@@ -1,0 +1,3 @@
+patch:
+  # 保持原 fork 行为，关闭双拼方案对输入框 preedit 的重写
+  translator/preedit_format: []

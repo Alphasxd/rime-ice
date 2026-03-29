@@ -1,0 +1,35 @@
+patch:
+  app_options/code.exe:
+    ascii_mode: true
+  app_options/goland64.exe:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/sublime_text.exe:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/windowsterminal.exe:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/cmd.exe:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/conhost.exe:
+    ascii_mode: true
+  app_options/wt.exe:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/pwsh.exe:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/powershell.exe:
+    ascii_mode: true
+    ascii_punct: true
+
+  style/font_face: "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, LXGW WenKai Screen, SF Pro, Segoe UI Emoji, Noto Color Emoji"
+  style/label_font_face: "LXGW WenKai Screen"
+  style/comment_font_face: "LXGW WenKai Screen"
+  style/font_point: 13
+  style/label_font_point: 13
+  style/comment_font_point: 12
+  style/horizontal: false
+  style/layout/candidate_spacing: 10

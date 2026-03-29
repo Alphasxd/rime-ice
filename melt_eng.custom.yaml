@@ -1,0 +1,4 @@
+patch:
+  # 双拼下切换英文方案的拼写派生规则
+  speller/algebra:
+    __include: melt_eng.schema.yaml:/algebra_double_pinyin
