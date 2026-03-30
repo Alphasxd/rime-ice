@@ -7,7 +7,7 @@ patch:
     - Control+grave
 
   punctuator/digit_separator_action: commit
-  punctuator/half_shape:
+  'punctuator/half_shape/+':
     "`": "`"
 
   # 改用 [ ] 翻页后，将以词定字挪到 - 和 =
