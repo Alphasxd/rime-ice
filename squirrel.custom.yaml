@@ -1,4 +1,7 @@
 patch:
+  app_options/com.apple.loginwindow:
+    ascii_mode: true
+    ascii_punct: true
   app_options/com.apple.Terminal:
     ascii_mode: true
     ascii_punct: true
@@ -14,6 +17,8 @@ patch:
   app_options/com.jetbrains.intellij:
     ascii_mode: true
   app_options/com.cisco.anyconnect.gui:
+    ascii_mode: true
+  app_options/dev.zed.Zed:
     ascii_mode: true
 
   preset_color_schemes/purity_of_form_custom/font_face: LXGWWenKaiScreen
