@@ -2,6 +2,13 @@ patch:
   app_options/com.apple.loginwindow:
     ascii_mode: true
     ascii_punct: true
+  # macOS 密码/授权弹窗（系统偏好设置改设置、安装助手等）
+  app_options/com.apple.SecurityAgent:
+    ascii_mode: true
+    ascii_punct: true
+  app_options/com.apple.authorizationhost:
+    ascii_mode: true
+    ascii_punct: true
   app_options/com.apple.Terminal:
     ascii_mode: true
     ascii_punct: true
